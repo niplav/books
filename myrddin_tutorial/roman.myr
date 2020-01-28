@@ -1,0 +1,54 @@
+use std
+
+trait stringable @a=
+	stringify : (buf : std.strbuf#, v : @a -> void)
+;;
+
+type roman=int64
+
+const romanmap=[
+	(1000, "M"), ( 900, "CM"),
+	( 500, "D"), ( 400, "CD"),
+	( 100, "C"), (  90, "XC"),
+	(  50, "L"), (  40, "XL"),
+	(  10, "X"), (   9, "IX"),
+	(   5, "V"), (   4, "IV"),
+	(   1, "I")
+][:]
+
+impl stringable roman=
+	stringify={sb, n
+		for(i, s) in romanmap[:]
+			while n>=i
+				std.sbputs(sb, s)
+				n-=i
+			;;
+		;;
+	}
+;;
+
+impl stringable int32=
+	stringify={sb, n
+		std.sbfmt(sb, "{}", n)
+	}
+;;
+
+const main={
+	var i32 : int32
+	var r : roman
+	var sb, s
+
+	r=1234
+	i32=1234
+
+	sb=std.mksb()
+	std.sbputs(sb, "roman: ")
+	stringify(sb, r)
+	std.sbputs(sb, ", i32: ")
+	stringify(sb, i32)
+	s=std.sbfin(sb)
+
+	std.put("traity conversion: {}\n", s)
+
+	std.slfree(s)
+}

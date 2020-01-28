@@ -1,0 +1,42 @@
+use std
+
+type fixstack(@a)=struct
+	top : std.size
+	data : @a[100]
+;;
+
+generic stkpush={s : fixstack(@a)#, val : @a
+	s.data[s.top++]=val
+}
+
+generic stkpop={s : fixstack(@a)# -> @a
+	-> s.data[--s.top]
+}
+
+generic mkstk={ -> fixstack(@a)
+	-> [.top=0]
+}
+
+const main={
+	var intstk : fixstack(int)
+	var strstk : fixstack(byte[:])
+
+	/* create the stacks */
+	intstk=mkstk()
+	strstk=mkstk()
+
+	/* initialize the integer stack */
+	stkpush(&intstk, 0)
+	stkpush(&intstk, 1)
+	stkpush(&intstk, 2)
+
+	/* initialize the string stack */
+	stkpush(&strstk, "foo")
+	stkpush(&strstk, "bar")
+	stkpush(&strstk, "baz")
+
+	for var i=0; i<3; i++
+		std.put("{}\n", stkpop(&intstk))
+		std.put("{}\n", stkpop(&strstk))
+	;;
+}

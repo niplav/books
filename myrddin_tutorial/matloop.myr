@@ -1,0 +1,7 @@
+use std
+
+const main={
+	for (1, x) in [(1, 1), (2, 4), (1, 3), (2, 7)][:]
+		std.put("x = {}\n", x)
+	;;
+}

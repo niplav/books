@@ -1,0 +1,15 @@
+use std
+
+type u=union
+	`Bodyless
+	`Int int
+	`Pair (int, char)
+;;
+
+const main={
+	match `Pair (1, 'c')
+	| `Bodyless:	std.put("no body\n")
+	| `Int i:	std.put("int body is {}\n", i)
+	| `Pair (a, b):	std.put("pair body: first={}, second={}\n", a, b)
+	;;
+}

@@ -1,0 +1,5 @@
+dec max : num # num -> num;
+--- max(x, y) <= if x>y then x else y;
+
+dec maxof3 : num # num # num -> num;
+--- maxof3(x, y, z) <= max(x, max(y, z))

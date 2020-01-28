@@ -1,0 +1,4 @@
+Consintency might drive the analyst to write a shorter specification,
+since it is more easily attained in a short document than in a long
+one. Also, a short inconsintent document is more easily refactored into
+a short consistent one.

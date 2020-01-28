@@ -1,0 +1,3 @@
+infix mult : 8;
+dec mult : num # num -> num;
+--- x mult y <= if y = 0 then 0 else x mult (y-1)+x;

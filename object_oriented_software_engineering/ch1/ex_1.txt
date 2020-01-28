@@ -1,0 +1,3 @@
+Modeling is used to transform a problem or a set of problems into a
+high-level blueprint for a system. A model is easier to reason about
+than a already implemented system.

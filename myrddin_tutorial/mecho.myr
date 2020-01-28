@@ -1,0 +1,32 @@
+use std
+
+const main={args : byte[:][:]
+	var cmd
+	var printnl, pfx
+
+	printnl=true
+	pfx=""
+
+	cmd=std.optparse(args, &[
+		.argdesc="args...",
+		.opts=[
+			[.opt='n', .desc="suppress newlines"],
+			[.opt='p', .arg="pfx", .desc="insert prefix"],
+		][:]
+	])
+
+	for o in cmd.opts
+		match o
+		| ('n', ""):	printnl=false
+		| ('p', p):	pfx=p
+		| _:		std.die("bug: unhandled arg\n")
+		;;
+	;;
+
+	for a in cmd.args
+		std.put("{}{} ", pfx, a)
+	;;
+	if printnl
+		std.put("\n")
+	;;
+}

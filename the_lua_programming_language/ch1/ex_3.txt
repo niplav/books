@@ -1,0 +1,4 @@
+Actually, from the top of my head, I really can't.
+But apparently, haskell does it, which is weird,
+since lua and haskell have pretty different programming
+language lineages afaik.

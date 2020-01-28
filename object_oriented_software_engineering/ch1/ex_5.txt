@@ -1,0 +1,14 @@
+"The TicketDistributor will be at most one and a half meters tall.":
+A higher TicketDistributor would be too fragile and unstable to be
+operational. Furthermore, a taller TicketDistributor would be harder
+to maintain, since some parts could be out of reach.
+"The TicketDistributor will include two redundant computer systems."
+This is necessary because if one computer fails, the other one can
+take over. Redundancy is pretty important in fault tolerant computer
+systems that are not regularly maintained.
+"The TicketDistributor interface will consist of a touch screen for
+displaying instructions and accessing commands and a single button for
+aborting transactions.":
+A separate button to abort all transactions makes it clearer and prevents
+unwanted ticked purchases. The touch screen will make the interface more
+flexible and modifiable.

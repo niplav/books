@@ -1,0 +1,5 @@
+SetAlarmTime, WatchUser
+The WatchUser turns the second, smaller AlarmButton to move the AlarmArm
+on the face of the watch to the desired time. After having put it in
+the right place, she pushes the AlarmButton in, thus activating the
+alarm timer.

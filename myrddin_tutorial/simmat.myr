@@ -1,0 +1,10 @@
+use std
+
+const main={
+	var x=11
+	match x
+	| 7:	std.put("first\n")
+	| 9:	std.put("second\n")
+	| n:	std.put("got {}\n", n)
+	;;
+}

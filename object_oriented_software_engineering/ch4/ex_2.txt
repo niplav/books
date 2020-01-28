@@ -1,0 +1,5 @@
+SetTime, WatchUser
+The WatchUser pulls the AufziehButton at the side out and turns it to
+set the time (turning it up sets the time earlier, turning it downwards
+sets it later). After the desired time is set on the watch, the WatchUser
+pushes the button back in, thus resuming the clockwork.

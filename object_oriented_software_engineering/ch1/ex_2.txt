@@ -1,0 +1,7 @@
+Disadvantage: A programming language is much more low-level than a
+modeling language made exactly for that purpose. Also, a modeling
+language is much easier to intuitively understand and learn than a
+programming language.
+Advantage: There is no separate step from translating the model to
+the implementation. There is no need to learn a new language for the
+developers.

@@ -1,0 +1,5 @@
+Valid identifiers from the list:
+___, _end, End, NULL
+
+Invalid identifiers:
+end, until?, nil

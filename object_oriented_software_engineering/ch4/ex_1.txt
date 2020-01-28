@@ -1,0 +1,7 @@
+SetWatch, WatchUser Sandra
+Sandra takes off his watch and realizes that it is two minutes late. She
+pulls the AufziehButton and starts moving the arm of the watch that
+signifies the minute by turning the button. After moving the arm around a
+little bit, she settles on being half a minute ahead of the real time,
+since higher accuracy is difficult to attain. Then she pushes the
+AufzieButton in, thus resuming the measuring of time by the watch.

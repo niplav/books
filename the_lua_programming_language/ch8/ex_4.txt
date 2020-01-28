@@ -1,0 +1,17 @@
+Shamelessly stolen:
+
+function f()
+  count = 0
+  function g()
+    count = count + 1
+    if count == 2 then debug.sethook() end
+    error()
+  end
+  debug.sethook(g, "r")
+end
+
+with
+
+pcall(pcall, f)
+
+returns false, nil.

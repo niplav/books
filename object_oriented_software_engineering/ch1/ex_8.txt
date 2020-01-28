@@ -1,0 +1,7 @@
+The first usage of "account" is clearly an application domain concept,
+since it is talked about independently from the system.
+The second usage of "account" is tied to the solution domain, since it
+is dependent on the application (and an online connection).
+The third and fourth usage are also in the solution domain, since they
+now clearly represent data structures that are tied to the implementation
+of the system.

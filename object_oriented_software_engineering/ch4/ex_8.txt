@@ -1,0 +1,5 @@
+Traceability makes it easier to revert back to earlier stages of
+development, making mistakes correctable and genealogies of objects
+and use cases clear, so that a restructuring of the system and its
+requirements doesn't have to be begun from the beginning when encountering
+an error.

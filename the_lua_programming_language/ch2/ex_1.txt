@@ -1,0 +1,3 @@
+The result of the expression `type(nil)==nil` is
+`false`, since the type of `type(nil)` is `string`,
+and the string `"nil"` is not equal to the value `nil`.

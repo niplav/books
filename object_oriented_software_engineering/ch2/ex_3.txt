@@ -1,0 +1,6 @@
+"A use case is an abstraction that describes all possible scenarios
+involving the described functionality. A scenario is an instance of a
+use case describing a concrete set of actions."
+A scenario is good for brainstorming and figuring out concrete usages of
+the system in a very early stage, use cases are developed from structures
+in scenarios that can be abstracted.

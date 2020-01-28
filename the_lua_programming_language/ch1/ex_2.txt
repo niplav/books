@@ -1,0 +1,5 @@
+For a script that loads a library the dofile option is
+probably preferable, since then there is no need to
+deal with the different ways different platforms handle
+flags, when using lua interactively, the '-l' option is
+nicer, since one needs to type less.

@@ -1,0 +1,5 @@
+The parantheses are not necessary, since
+`not` binds stronger than `and`, and `and` binds
+stronger than `or`. However, the parantheses are
+probably still a good idea, since they make the expression
+easier to read and understand.

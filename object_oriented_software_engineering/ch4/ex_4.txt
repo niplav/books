@@ -1,0 +1,6 @@
+4-4: SetArm, WatchUser
+The WatchUser turns the Button to move the Arm to the desired Location
+on the WatchFace. There is a specific part of the two use cases that is
+common to both use cases, so an «include» relationship is preferable
+to the «extend» relationship, which would only make sense if a use
+case were part of another, bigger use case.

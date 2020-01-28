@@ -1,0 +1,16 @@
+The program would first print:
+
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+and then return an anonymous function
+that jumps to the end of getlabel() and
+return 0.

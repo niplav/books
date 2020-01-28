@@ -1,0 +1,8 @@
+Developers don't know much about the problem domain, and have to
+extract information about the problem domain from the users. This might
+lead to misunderstandings and over-simplifications on the side of the
+developers. Users, on the other hand, have no good metric to evaluate
+software systems that are feasible or impossible, since they are not used
+to think about the fuzziness of problems and their computability. They
+also often underestimate the complexity of the development process,
+leading to incorrect expectations what is economically doable.

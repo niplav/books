@@ -1,0 +1,9 @@
+One way to initialize the table would
+be to use the square bracket notation.
+Associating the escape sequence `"\a"`
+with the literal bell character would be
+done like this:
+
+{["\\a"]="\a"}
+
+This would be done for every escape sequence.

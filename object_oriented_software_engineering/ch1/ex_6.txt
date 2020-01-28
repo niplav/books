@@ -1,0 +1,11 @@
+“The TicketDistributor must enable a traveler to buy weekly passes.”:
+functional.
+“The TickedDistributor must be written in Java.”:
+nonfunctional.
+“The TicketDistributor must be easy to use.”:
+nonfunctional.
+“The TickedDistributor must always be available.”:
+nonfunctional.
+“The TicketDistributor must provide a phone number to call when it
+fails.”:
+functional.

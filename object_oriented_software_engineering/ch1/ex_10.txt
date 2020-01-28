@@ -1,0 +1,17 @@
+When software is developed, there are often new feature requests during
+development. This can slow down development quite considerably. New
+feature requests happens a lot less frequently in the case of aircrafts
+and bridges.
+Also, unlike the other two kinds of systems, software is very often built
+incrementally, while bugs are being found, and can result in inconsistencies
+and overlooked old features. Aircrafts and bridges, on the other hand, have
+to be planned very carefully, and thereby force their engineers to consider
+as many modes as failure as possible in advance.
+Often, aircrafts and bridges fail obviously when they fail, while software
+can corrupt memory and save files unnoticed for a longer time frame.
+Another reason software is often delivered late is because engineers often
+severely underestimate the amount of time the development of the software
+will require (both as a result of lack of experience and the overestimation
+of the capabilities of their team). Building aircrafts and bridges has been
+practised for a much longer amount of time and also results in physical
+objects, which makes their complexity more tangible than software.

@@ -1,0 +1,3 @@
+p. 45: "Each Activity is in turn composed of a number of Tasks."
+The difference between the two is that one is just the composition of
+several instances of the other.

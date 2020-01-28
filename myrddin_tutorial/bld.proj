@@ -1,0 +1,35 @@
+bin hello=
+	hello.myr
+;;
+
+bin fact=
+	fact.myr
+;;
+
+bin simmat=
+	simmat.myr
+;;
+
+bin unexm=
+	unexm.myr
+;;
+
+bin matloop=
+	matloop.myr
+;;
+
+bin mwc=
+	mwc.myr
+;;
+
+bin stack=
+	stack.myr
+;;
+
+bin roman=
+	roman.myr
+;;
+
+bin mecho=
+	mecho.myr
+;;

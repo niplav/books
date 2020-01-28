@@ -1,0 +1,1 @@
+A participant fulfills a role, which is like a scheme of action.

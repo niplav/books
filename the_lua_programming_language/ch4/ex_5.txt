@@ -1,0 +1,7 @@
+Jumping out of a function would jump into the scope of a local variable,
+which is not possible (per definition) in lua.
+This would also cause problems in a function calling itself and
+jumping back into itself (or two different functions calling each other
+recursively), since there would be no good way to determine whether the
+goto would simply jump inside the function or outside into a previous
+call of itself.

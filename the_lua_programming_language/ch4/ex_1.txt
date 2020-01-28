@@ -1,0 +1,3 @@
+In lua there is no switch/case statement,
+so elseif is a necessary (albeit not sufficient)
+replacement.

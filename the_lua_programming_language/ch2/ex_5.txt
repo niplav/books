@@ -1,0 +1,11 @@
+One good way to format the sequence of bytes
+would be to display it in a string with escaped
+bytes in hexadecimal format, split into several
+lines with `"\z"`. By doing this problems with
+line length can be avoided and performance is
+probably not very bad, considering that computers
+handle byte sequences considerably well.
+Readability can, but should not be a problem,
+since when dealing with arbitrary byte sequences
+the value in hexadecimal is used more frequently
+than the ASCII value.

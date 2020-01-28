@@ -1,0 +1,7 @@
+“The TicketDistributor is composed of a user interface subsystem,
+a subsystem for computing tariff, and a network subsystem for managing
+communication with a central computer.”: Made during system design.
+“The TickedDistributor hardware uses PowerPC processor chips.”:
+Made during requirements design.
+“The TicketDistributor provides the traveler with online help.”:
+Made during requirements design.

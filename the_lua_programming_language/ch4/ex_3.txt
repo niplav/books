@@ -1,0 +1,10 @@
+repeat-until is a construct similar to
+do-while in C, a construct which is also
+used rarely there. Apparently, in C only
+5% of loops in C code are do-while loops.
+However, repeat-until can be useful to avoid
+initializing a variable the same way it is
+incremented in the loop, saving one line.
+It makes elegant solutions easier, but not
+much beyond that, so it could be left out
+easily.

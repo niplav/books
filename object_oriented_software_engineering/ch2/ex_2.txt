@@ -1,0 +1,3 @@
+No. To quote p. 66: "An actor describes any entity that interacts with
+the system." The system does not interact with itself, so it can't be
+considered an actor.

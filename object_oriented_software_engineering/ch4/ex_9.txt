@@ -1,0 +1,3 @@
+Multiple-choice questions can only capture use cases that the developers
+of the system can imagine, leaving out a big amount of possible desirable
+interactions between the users and the system.
