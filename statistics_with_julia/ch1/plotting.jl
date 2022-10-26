@@ -9,7 +9,7 @@ plot(xVals, [f0.(xVals), f2.(xVals)],
 	c=[:blue :red], xlims=(-5,5), legend=:top,
 	ylims=(-5,25), ylabel=L"f(x,\cdot)", label=[L"f(x,0)", L"f(x,2)"])
 
-p1=annotate!(0, -0.2, text("(0,0) The minimum\n of f(x,0), :left, :top, 10))
+p1=annotate!(0, -0.2, text("(0,0) The minimum\n of f(x,0)", :left, :top, 10))
 
 z=[f(x,y) for y in yVals, x in xVals]
 p2=surface(xVals, yVals, z, c=cgrad([:blue, :red]), legend=:none,
